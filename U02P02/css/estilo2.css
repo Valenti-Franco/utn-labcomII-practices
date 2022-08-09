@@ -1,0 +1,177 @@
+
+body{
+	background: linear-gradient(#13532D, #208A4B);
+	
+}
+.div-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.form-container{
+	flex:1;
+	
+	min-width: 400px;
+	max-width: 550px;
+	padding: 50px;
+
+	background-image: url("../img/selva1.png");
+
+	margin: 20px;
+	border: 5px solid #0D3F1C;
+	
+	border-radius: 80px 20px;
+	box-shadow: 0px 10px 10px -6px black;
+
+
+}
+.text{
+	color:#fff;
+	font-size: 24px;
+    text-shadow: 6px 3px 4px black;
+	text-align: center;
+}
+.form-container1{
+	flex:1;
+	
+	min-width: 400px;
+	max-width: 550px;
+	padding: 50px;
+
+	background-image: url("../img/selva1.png");
+
+	margin: 20px;
+	border: 5px solid #0D3F1C;
+	
+	border-radius: 80px 20px;
+	box-shadow: 0px 10px 10px -6px black;
+	    
+
+
+}
+.form-container:hover {
+	border: 5px solid #8EC829;
+	border-radius: 50px 50px;
+	}	
+
+.div-input{
+	
+	width: 100%;
+	flex: 1;
+
+
+	}
+.selec-input{
+	color: white;
+	width: 100%;
+	height: 45px;
+	padding: 15px;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background: #0D3F1C;
+	border: 2px solid #8EC829;
+	border-radius: 20px 50px;
+
+	
+
+}
+.selec-input:focus {
+	border-radius: 0;
+
+	
+	box-shadow: 0px 10px 10px -6px black;
+	border-radius: 50px 50px;
+	background: linear-gradient(to top, transparent, #0C320F );
+
+}
+.container-img{
+	
+	text-align: center;
+	border:5px solid #0D3F1C; 
+
+	background-image: url(https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/article/5ed8bc475bafe839ea7ab41d/selva_0.jpg);
+	background-position: bottom; 
+	margin: 20px;
+
+	border-radius: 10%;
+}
+.container-img img{
+	min-width: 400px;
+    max-width: 550px;
+    padding: 50px;
+
+}
+.selec-input[type=placeholder]{
+	color: gray;  
+}
+.div-input [type=date]{
+	color: gray;
+	text-decoration: none;
+	
+	
+}
+.div-input [type=submit]{
+	padding: 5px;
+	color: gray;
+}
+.h1-container h1{
+	font-size: 48px;
+	display: flex;
+	text-align: center;
+	
+
+	
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	
+	
+
+
+}
+.menu-container {
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 18vw;
+    top: 16vh;
+    /* margin: auto; */
+    /* width: 145px; */
+    background-color: rgb(3, 68, 11);
+    padding: 10px;
+    color: rgb(8, 8, 8);
+    text-shadow: 2px 2px 4px #000000;
+}
+.menu-container p {
+	font-size: 32px;
+    margin: auto;
+    width: 113px;
+    background-color: rgb(70, 248, 16);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #000000;
+}
+.enlace{
+	text-decoration: none;
+}
+.h1-container{
+	height: 150px;
+	max-width:600px;
+	border-radius: 50px 50px;
+	border: 5px solid lime;
+	background-image: url("../img/selva1.png");
+	background-position: bottom;
+
+	margin-bottom: -300px;
+	min-width: 350px;
+
+	margin: auto;
+	margin-top: 100px;
+
+
+	font-family: 'Arvo', serif;
+}
