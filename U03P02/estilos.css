@@ -1,0 +1,66 @@
+
+
+html{
+    box-sizing: border-box;
+
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+width: 100%;
+background-color: #440255;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo {
+    color: #fff;
+font-weight: 700;
+display: inline-block;
+align-items: center;
+
+
+
+}
+.nav-links {
+list-style: none;
+display: flex;
+}
+.nav-item a {
+display: inline-block;
+padding: 10px 15px;
+text-decoration: none;
+color: #fff;
+}
+.nav-item:hover a{
+        background-color: rgba(85, 85, 84, 0.364);
+        border-radius: 20%;
+    }
+    .nav-item:hover a {
+     color: rgb(154, 154, 154);
+     border: .5px solid #fff
+    }
+    #login:hover{
+        background-color: none;
+        text-shadow: rgb(1, 239, 227) 2px 1px 1px;
+        color:#000;
+        border-radius: none;
+        border-radius: 0%;
+    }
+    .fa-truck-monster{
+        padding: 5px;
+        font-size: 18px;
+    }
