@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+    
+}
+h1{
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900;
+    padding: 10px;
+}
+h2{
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+    padding: 10px;
+}
+p{
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+ul li{
+    font-family: monospace;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 10px;
+}
+a{
+    padding: 10px;
+    font-weight: bold;
+}
+ul{
+    padding: 10px;
+    width: 40%;
+    margin-left:100px ;
+    padding: 20px;
+    border: solid 2px blue;
+}
+.nuequen-rionegro{
+    color: green;
+}
+
+h1:hover{
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+h2:hover{
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+p:hover{
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+ul li:hover{
+    font-family: monospace;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+a:{
+    padding: 10px;
+    font-weight: bold;
+}
+ul{
+    padding: 10px;
+    width: 40%;
+    margin-left:100px ;
+    padding: 20px;
+    border: solid 2px blue;
+}
+.nuequen-rionegro{
+    color: green;
+}
