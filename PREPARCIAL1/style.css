@@ -1,0 +1,94 @@
+.header-container{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-color: rgb(126, 145, 151);
+    border-bottom: 3px solid #000;
+  
+}
+.logo{
+    
+    max-width: 30vw;
+    flex-grow: 3;
+}
+.nav{
+    flex-grow: 4;
+    text-align: center;
+    align-self: end;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.profile{
+    flex-grow: 5;
+    text-align: left;
+    align-self: end;
+    margin-bottom: 10px;
+    font-size: 34px;
+}
+ul{
+    align-self: center;
+    
+}
+.nav-li{
+    display: inline-flex;
+    
+    
+}
+li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    
+    
+}
+li a:hover{
+    
+    border-bottom: 1px solid #000;
+    
+    
+}
+.active{
+    border-bottom: 1px solid #000;
+ 
+}
+.main-image{
+    display: flex;
+    
+}
+.img-background{
+    
+    background-image: url(img/utn-alumnos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #fff;
+    width: 50vw;
+    height: 45vh;
+    text-align: center;
+    
+}
+.titulo {
+    margin-top: 15%;
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-shadow: 3px 3px 2px #000;
+}
+p{
+    font-size: 18px;
+    margin-top: 15%;
+    color: rgb(148, 148, 148);
+    text-shadow: 1px 1px 15px #fff;
+    
+}
+
+.img-content{
+    overflow-y: scroll;
+    width: 50vw;
+    padding: 20px;
+    height: 45vh;
+     font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(70,70,70,1) 100%);
+}
