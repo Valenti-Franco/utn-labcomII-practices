@@ -1,0 +1,45 @@
+section form p{
+    font-weight: bold;
+    margin: 0;
+    text-align: start;
+}
+section form input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+section form textarea{
+    width: 100%;
+    height: 20vh;
+    resize: none;
+    display: block;
+}
+section form button{
+    
+    margin-top: 20px;
+    padding: 12px;
+    color: #fff;
+    background-color: #00594c;
+    border-radius: 10px;
+    border: 0;
+
+}
+section form{
+    margin-top: 20px;
+    text-align: center;
+    width: 30vw;
+    
+}
+.error{
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background-color:#dc3545;
+    width: 35vw;
+    margin: 40px  auto  ;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+    
+    
+}

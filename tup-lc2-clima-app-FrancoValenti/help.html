@@ -6,10 +6,12 @@
     <title>TUP LC2 - TP Integrador</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/pages/help.css" />
   </head>
   <body>
     <header>
       <h1>
+        <img src="https://cdn-icons-png.flaticon.com/512/2383/2383684.png" alt="">
         <span>Clima App</span>
       </h1>
       <nav>
@@ -37,13 +39,16 @@
       </p>
       <section>
         <form action="">
-          <p>Nombre: <input type="text" /></p>
-          <p>Email: <input type="email" /></p>
-          <p>Mensaje: <textarea></textarea></p>
+          <p>Nombre: </p><input type="text" />
+          <p>Email: </p><input type="email" />
+          <p>Mensaje: </p><textarea></textarea>
           <button>Limpiar</button>
           <button>Enviar</button>
+          
         </form>
+       
       </section>
+      <p class="error">Ingrese un Email válido</p>
       <section id="form-city-list">
         <!-- Sección donde se debe colocar el formulario, con el select y el
 botón de consultar -->

@@ -1,0 +1,44 @@
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+form button{
+    background-color:#00594c;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 8px;
+    color: #fff;
+    border: 0;
+}
+form {
+    text-align: center;
+    
+}
+form p{
+    margin: 2px;
+    font-weight: bold;
+}
+.msg{
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+.amarillo{
+    background-color: #ffc107;
+}
+.rojo{
+    background-color:#dc3545;
+}
+.verde{
+    background-color:#28a745 ;
+}
