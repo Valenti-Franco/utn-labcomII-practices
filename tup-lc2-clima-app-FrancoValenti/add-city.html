@@ -28,17 +28,21 @@
     <main>
       <h2>Agregar Ciudad</h2>
       <section id="form-city-list">
-        <form action="">
+        <form action="" id="form-city">
             <p>Ingrese la ciudad a agregar:</p> 
-            <input type="text">
-            <button>Agregar</button>
+            <input type="text" id="newcity" name="newcity">
+            <button id="button-add" onclick="addcity(), event.preventDefault()" >Agregar</button>
             
         </form>
         
       </section>
-      <p class="msg verde">Ciudad agregada con éxito</p>
-      <p class="msg rojo">Error: La ciudad ingresadad no se encuentra en la API o se produjo un erro al consultar</p>
-      <p class="msg amarillo">La ciudad ingresada ya se encuentra almacenada</p>
+      <div id="loader" class="loader-container display">
+          <div class="loader"></div>
+      </div>
+      
+      <p id="verde" class="display msg verde">Ciudad agregada con éxito</p>
+      <p id="rojo" class="display msg rojo">Error: La ciudad ingresadad no se encuentra en la API o se produjo un error al consultar</p>
+      <p id="amarillo" class="display msg amarillo">La ciudad ingresada ya se encuentra almacenada</p>
       <section id="section-weather-result">
         <!-- Sección donde se debe mostrar el clima de la ciudad -->
       </section>
@@ -46,5 +50,8 @@
     <footer>
       <p>Desarrollado con ♥ - LC2</p>
     </footer>
+    <script src="js/common.js"></script>
+    <script src="js/pages/add.city.js"></script>
+
   </body>
 </html>

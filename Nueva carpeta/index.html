@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+
+        <section>
+            <div>
+                <label for="">Tipo de usuario</label>
+                <select name="" id="tipo-usuario" onchange="select()">
+                    <option value="" selected disabled>Seleccionar</option>
+                    <option value="Residencial">Residencial</option>
+                    <option value="Indstrial">Indstrial</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="">Zona del domicilio</label>
+                <select name="" id="zona-domicilio">
+                    <option value="" selected disabled>Seleccionar</option>
+                    <option value="">Distrito Centro</option>
+                    <option value="">Distrito Sur</option>
+                    <option value="">Distrito Oeste</option>
+                    <option value="">Distrito Norte</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Cantidad de kWh del mes</label>
+                <input type="number" name="" id="cantidad-kwh">
+            </div>
+
+            <button>Calcular</button>
+
+        </section>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

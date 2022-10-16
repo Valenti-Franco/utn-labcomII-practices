@@ -7,6 +7,9 @@
     box-shadow: 0px 0px 12px #000;
     width: 220px;
 }
+.card img{
+    filter: drop-shadow(1px 0px 5px rgba(0, 0, 0, 0.601));
+}
 .card p {
     line-height: 8px;
     font-size: 13px;
