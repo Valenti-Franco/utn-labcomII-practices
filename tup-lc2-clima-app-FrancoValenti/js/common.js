@@ -68,38 +68,7 @@ function getCitiesFromLocalStorage() {
        
    }
 
-   function addcity(){
-    amarillo.classList.add("display")
-    verde.classList.add("display")
-    rojo.classList.add("display")
-    var city = document.getElementById("newcity")
-    loader.classList.toggle("display")
-    setTimeout(() => {
-        
-        addNewCityToLocalStorage(city.value)
-    }, 1000);
-    
 
-   }
-
-   function añadiroption(){
-    let cities = localStorage.getItem("CITIES");
-    cities = JSON.parse(cities);
-    
-    var ciudadesSelec = document.getElementById("ciudades-selec");
-
-    for (let i = 0; i < cities.length; i++) {
-        
-        var option = document.createElement("option");
-        var ciudad = cities[i];
-        
-        option.text = ciudad;
-        ciudadesSelec.add(option);
-        
-    }
-    
-   
-    }
     
         
         
